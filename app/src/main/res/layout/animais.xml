@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ddlOrigem"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@android:style/Theme.DeviceDefault.Light.DarkActionBar"
+    android:background="#fff" >
+
+    <EditText
+        android:id="@+id/txtBrincoN"
+        android:layout_width="198dp"
+        android:layout_height="30dp"
+        android:layout_x="05dp"
+        android:layout_y="65dp"
+        android:background="@drawable/round"
+        android:ems="10"
+        android:inputType="date"
+        android:textColor="#000" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="05dp"
+        android:layout_y="101dp"
+        android:text="NOME"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/lblVaca"
+        android:layout_width="266dp"
+        android:layout_height="wrap_content"
+        android:layout_x="05dp"
+        android:layout_y="47dp"
+        android:text="BRINCO"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="14sp" />
+
+
+
+    <EditText
+        android:id="@+id/txtDtNascN"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_x="220dp"
+        android:layout_y="65dp"
+        android:background="@drawable/round"
+        android:ems="10"
+        android:inputType="date"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/TextView04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="220dp"
+        android:layout_y="47dp"
+        android:text="DT. NASCIMENTO"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="14sp" />
+
+    <ImageButton
+        android:id="@+id/btnDataN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="438dp"
+        android:layout_y="62dp"
+        android:background="@color/WHITE"
+        android:src="@drawable/calendar_icon" />
+
+
+    <EditText
+        android:id="@+id/txtNomeN"
+        android:layout_width="431dp"
+        android:layout_height="30dp"
+        android:layout_x="5dp"
+        android:layout_y="118dp"
+        android:background="@drawable/round"
+        android:ems="10"
+        android:inputType="textCapCharacters"
+        android:textColor="#000" >
+
+
+    </EditText>
+
+
+
+    <TextView
+        android:id="@+id/TextView07"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="7dp"
+        android:layout_y="161dp"
+        android:text="RAÇA"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="14sp"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="470dp"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:background="@color/black"
+        android:gravity="center"
+        android:text="NOVO ANIMAL"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/WHITE"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/btnCancelaN"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="211dp"
+        android:layout_height="60dp"
+        android:layout_x="12dp"
+        android:layout_y="327dp"
+        android:text="CANCELAR"
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/btnSalvarN"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="203dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:layout_x="235dp"
+        android:layout_y="333dp"
+        android:text="SALVAR"
+        android:textSize="18dp"
+        android:textColor="@color/WHITE"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/ddlRaca"
+        android:layout_width="432dp"
+        android:layout_height="37dp"
+        android:layout_x="7dp"
+        android:layout_y="181dp"
+        android:background="@drawable/round"
+        android:spinnerMode="dialog"
+        android:visibility="visible"
+         />
+
+    <TextView
+        android:id="@+id/textView111"
+        android:layout_height="50dp"
+        android:layout_x="0dp"
+        android:layout_y="395dp"
+        android:background="@color/black"
+        android:gravity="center"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/WHITE"
+        android:textStyle="bold"
+        android:layout_width="470dp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="2dp"
+        android:layout_y="302dp"
+        android:id="@+id/textView11"
+        android:textColorLink="@color/colorPrimaryDark"
+        android:textColor="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:visibility="invisible" />
+
+</AbsoluteLayout>

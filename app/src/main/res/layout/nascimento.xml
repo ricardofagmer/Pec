@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ddlOrigem"
+    android:layout_width="match_parent"
+    android:theme="@android:style/Theme.DeviceDefault.Light.DarkActionBar"
+    android:layout_height="match_parent" >
+
+    <EditText
+        android:id="@+id/txtDtParto"
+        android:layout_width="220dp"
+        android:layout_height="30dp"
+        android:layout_x="80dp"
+        android:layout_y="72dp"
+        android:background="@drawable/round"
+        android:ems="10"
+        android:inputType="date"
+        android:textColor="#000" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/lblVaca"
+        android:layout_width="282dp"
+        android:layout_height="wrap_content"
+        android:layout_x="80dp"
+        android:layout_y="42dp"
+        android:text="Data parto"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/btnCancelar"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_x="80dp"
+        android:layout_y="240dp"
+        android:text="Cancelar" />
+
+    <Button
+        android:id="@+id/btnSalvarParto"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_x="80dp"
+        android:layout_y="178dp"
+        android:text="SALVAR"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/ddlTipoNasc"
+        android:layout_width="220dp"
+        android:layout_height="39dp"
+        android:layout_x="80dp"
+        android:layout_y="136dp"
+        android:background="@drawable/round"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="80dp"
+        android:layout_y="107dp"
+        android:text="Tipo Nascimento"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_x="97dp"
+        android:layout_y="343dp" />
+
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="372dp"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:background="#000"
+        android:gravity="center"
+        android:text="PARTO"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/WHITE"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lblPesoAtual"
+        android:layout_width="372dp"
+        android:layout_height="wrap_content"
+        android:layout_x="-1dp"
+        android:layout_y="416dp"
+        android:background="#000"
+        android:gravity="center"
+        android:text="  "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/WHITE"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lblmessage"
+        android:layout_width="236dp"
+        android:layout_height="wrap_content"
+        android:layout_x="89dp"
+        android:layout_y="322dp"
+        android:text="   "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FF0000" />
+
+    <ImageButton
+        android:id="@+id/btnDtParto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="303dp"
+        android:layout_y="68dp"
+        android:background="@color/WHITE"
+        android:src="@drawable/calendar_icon" />
+
+</AbsoluteLayout>

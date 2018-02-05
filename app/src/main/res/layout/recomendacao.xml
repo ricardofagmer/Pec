@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="800dp"
+    android:layout_height="500dp"
+    android:background="@color/WHITE"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.02"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="1dp"
+            android:background="#000"
+            android:text="DATA RELATÓRIO"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/WHITE"
+            android:textSize="14sp"
+            android:textStyle="italic"
+            android:layout_weight="0.00" />
+
+        <TextView
+            android:id="@+id/lblDtRel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="1dp"
+            android:background="#000"
+            android:text="   "
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/WHITE"
+            android:textSize="14sp"
+            android:textStyle="italic"
+            android:layout_weight="0.02" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="683dp"
+            android:layout_y="94dp"
+            android:background="@color/WHITE"
+            android:src="@drawable/calendar_icon" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="700dp"
+        android:layout_height="wrap_content"
+        android:text="RECOMENDAÇÃO"
+        android:id="@+id/txtRecomendacao1"
+        android:gravity="center"
+        android:background="@color/abc_input_method_navigation_guard"
+        android:textColor="@color/WHITE"
+        android:textStyle="bold"
+        android:layout_weight="0.02" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:ems="10"
+        android:id="@+id/txtRec"
+        android:layout_gravity="top"
+        android:layout_weight="0.68"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:inputType="textMultiLine"
+        android:textStyle="italic"
+        android:singleLine="false" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.02"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancelar"
+            android:id="@+id/btnCancelar"
+            android:layout_weight="0.02"
+            android:background="#FFCDCDCD" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SALVAR"
+            android:id="@+id/btnSalvar"
+            android:layout_weight="0.02"
+            android:background="#6a6a6a"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+</LinearLayout>

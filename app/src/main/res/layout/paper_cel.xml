@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="43dp"
+        android:text="PRODUTOR"
+        android:textColor="@color/black"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/textView12"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="PRODUTOR"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/textView14"
+        android:layout_toEndOf="@+id/textView14"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="62dp" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:layout_below="@+id/textView42"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView14"
+        android:layout_marginTop="25dp"
+        android:text="ANIMAIS"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="14dp"
+         />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_x="500dp"
+        android:layout_y="12dp"
+        android:background="#DCD3D3"
+        android:text="DG"
+        android:layout_marginRight="13dp"
+        android:layout_marginEnd="13dp"
+        android:layout_below="@+id/button4"
+        />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_x="615dp"
+        android:layout_y="12dp"
+        android:background="#DCD3D3"
+        android:text="PARTO"
+        android:layout_below="@+id/button2"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignStart="@+id/button2"
+        android:layout_marginTop="11dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_x="730dp"
+        android:layout_y="12dp"
+        android:background="#DCD3D3"
+        android:text="NOVO ANIMAL"
+        android:textSize="12dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginStart="7dp"
+        android:layout_below="@+id/spinner2"
+    />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_x="958dp"
+        android:layout_y="12dp"
+        android:background="@color/md_green_50"
+        android:text="OK"
+        android:layout_marginBottom="12dp"
+        android:layout_above="@+id/button2"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignStart="@+id/button2" />
+
+</RelativeLayout>

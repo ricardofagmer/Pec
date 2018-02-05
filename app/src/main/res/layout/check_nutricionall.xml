@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@color/WHITE"
+    android:theme="@android:style/Theme.DeviceDefault.Light.DarkActionBar"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="500dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/lblData"
+            android:layout_width="500dp"
+            android:layout_height="24dp"
+            android:background="#000"
+            android:text="CONTROLES ZOOTÉCNICOS E CONTROLES GERENCIAS"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/WHITE"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:background="@color/GRAY"
+            android:text="1 - TEM CONTROLE MENSAL LEITEIRO?"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:text="2 - TEM CONTROLE MENSAL FINANCEIRO: RECEITAS?"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:background="@color/GRAY"
+            android:text="3 - TEM CONTROLE MENSAL FINANCEIRO: DESPESAS?"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="700dp"
+            android:layout_height="24dp"
+            android:background="@color/IBS"
+            android:text="MANEJO NUTRICIONAL"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/WHITE"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:text="1 - POSSUI ÁREA DE PASTAGEM DIMENSIONADA PARA O REBANHO ATUAL?"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:background="@color/GRAY"
+            android:text="2 - POSSUI VOLUMOSO D INVERNO DIMENSIONADO P/ REBANHO ATUAL? (CANA-DE-AÇUCAR/SILAGENS)"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:text="3 - POSSUI SISTEMA DE IRRIGAÇÃO ADEQUADO?"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:background="@color/GRAY"
+            android:text="4 - OS ALIMENTOS SÃO PREPARADOS E OFERECIDOS ADEQUADAMENTE?"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:text="5 - OFERTA DIETA EM FUNÇÃO DA CAPACIDADE PRODUTIVA DOS ANIMAIS?"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:background="@color/GRAY"
+            android:text="6 - OS ALIMENTOS SÃO ARMAZENADOS / CONSERVADOS COM SEGURANÇA?"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/textView111"
+            android:layout_width="700dp"
+            android:layout_height="24dp"
+            android:background="@color/IBS"
+            android:text="SANIDADE DO REBANHO"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/WHITE"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView40"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:text="1 - OS ANIMAIS SE APRESENTAM SAÚDAVEIS COM RELAÇÃO A CASCOS E LOCOMOÇÕES?"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:background="@color/GRAY"
+            android:text="2 - AS VACAS EM PRODUÇÃO SE APRESENTAM SAUDÁVEIS COM RELAÇÃO AO ÚBERE?"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:text="3 - MANTÉM DIA O CRONOGRAMA SANITÁRIO? (VACINAS OBRIGATÓRIAS)"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:background="@color/GRAY"
+            android:text="4 - TEM PROBLEMAS COM ECTOPARASITAS?"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:text="5 - OS PRODUTOS VETERINÁRIOS SÃO ARAMAZENADOS CORRETAMENTE?"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/textView39"
+            android:layout_width="700dp"
+            android:layout_height="24dp"
+            android:background="@color/IBS"
+            android:text="MANEJO REPRODUTIVO E MELHORAMENTO GENÉTICO"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/WHITE"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:background="@color/GRAY"
+            android:text="1 - POSSUI CONTROLE REPRODUTIVO DAS VACAS E NOVILHAS (DATAS DE PARTO, DE COBERTURA, ETC)?"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:text="2 - REALIZA PROCEDIMENTOS DE INSEMINAÇÃO ARTIFICIAL?"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="15dp" />
+        
+         <TextView
+             android:id="@+id/textView32"
+             android:layout_width="match_parent"
+             android:layout_height="24dp"
+             android:background="@color/GRAY"
+             android:text="3 - UTILIZA PROCEDIMENTOS DE F.I.V + T.E.? "
+             android:textAppearance="?android:attr/textAppearanceMedium"
+             android:textSize="15dp" />
+
+         <TextView
+            android:id="@+id/textView33"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:text="4 - O REBANHO POSSUI BRINCOS DE IDENTIFICAÇÃO? "
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="15dp" />
+         
+          <TextView
+            android:id="@+id/textView37"
+            android:layout_width="700dp"
+            android:layout_height="24dp"
+              android:background="#000"
+            android:text="QUALIDADE"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/WHITE"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+          
+          <TextView
+              android:id="@+id/textView34"
+              android:layout_width="match_parent"
+              android:layout_height="24dp"
+              android:background="@color/GRAY"
+              android:text="1 - FAZ USO DO TESTE DE CMT MENSALMENTE EM TODAS AS VACAS? "
+              android:textAppearance="?android:attr/textAppearanceMedium"
+              android:textSize="15dp" />
+
+           <TextView
+            android:id="@+id/textView35"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:text="2 - FAZ USO DO TESTE DE CANECA DE FUNDO PRETO DIARIAMENTE EM TODAS AS VACAS? "
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="15dp" />
+           
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="match_parent"
+                android:layout_height="24dp"
+                android:background="@color/GRAY"
+                android:text="3 - MANTEM A CORRETA HIGIENIZAÇÃO DOS AMBIENTES DE ORDENHA(ESPERA, ORDENHA)? "
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="15dp" />
+            
+              <TextView
+            android:id="@+id/textView41"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:text="4 - MANTÉM CORRETA HIGIENIZAÇÃO E LIMPEZA DOS EQUIPAMENTOS DE ORDENHA? "
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="15dp" />
+
+              <TextView
+                  android:id="@+id/TextView01"
+                  android:layout_width="700dp"
+                  android:layout_height="match_parent"
+                  android:background="@color/IBS"
+                  android:gravity="bottom"
+                  android:text="FIM CHECK LIST"
+                  android:textAppearance="?android:attr/textAppearanceMedium"
+                  android:textColor="@color/WHITE"
+                  android:textSize="15dp"
+                  android:textStyle="bold" />
+         
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="0dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:background="@color/IBS"
+            android:gravity="center|left"
+            android:text="   NÃO     PARCIAL      SIM"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/WHITE"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/ddl1"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:background="@color/GRAY" />
+
+        <Spinner
+            android:id="@+id/ddl2"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:background="@color/WHITE" />
+
+        <Spinner
+            android:id="@+id/ddl3"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:background="@color/GRAY" />
+
+        <TextView
+            android:id="@+id/textView50"
+            android:layout_width="801dp"
+            android:layout_height="24dp"
+            android:background="@color/IBS"
+            android:text="      "
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/WHITE"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/ddl4"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:background="@color/WHITE" />
+        <Spinner
+            android:id="@+id/ddl5"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:background="@color/GRAY" />
+
+        <Spinner
+            android:id="@+id/ddl6"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:background="@color/WHITE" />
+
+        <Spinner
+            android:id="@+id/ddl7"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:background="@color/GRAY" />
+
+        <Spinner
+            android:id="@+id/ddl8"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:background="@color/WHITE" />
+
+        <Spinner
+            android:id="@+id/ddl9"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:background="@color/GRAY" />
+        <TextView
+            android:id="@+id/textView51"
+            android:layout_width="801dp"
+            android:layout_height="24dp"
+            android:background="@color/IBS"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/WHITE"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/ddl10"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:background="@color/WHITE" />
+
+        <Spinner
+            android:id="@+id/ddl11"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:background="@color/GRAY" />
+
+        <Spinner
+            android:id="@+id/ddl12"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:background="@color/WHITE" />
+
+        <Spinner
+            android:id="@+id/ddl13"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:background="@color/GRAY" />
+
+        <Spinner
+            android:id="@+id/ddl14"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:background="@color/WHITE" />
+
+         <TextView
+            android:id="@+id/textView52"
+            android:layout_width="801dp"
+            android:layout_height="24dp"
+            android:background="@color/IBS"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/WHITE"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+        <Spinner
+            android:id="@+id/ddl15"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:background="@color/GRAY" />
+
+        <Spinner
+            android:id="@+id/ddl16"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:background="@color/WHITE" />
+
+        <Spinner
+            android:id="@+id/ddl17"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:background="@color/GRAY" />
+
+        <Spinner
+            android:id="@+id/ddl18"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:background="@color/WHITE" />
+
+         <TextView
+            android:id="@+id/textView53"
+            android:layout_width="801dp"
+            android:layout_height="24dp"
+            android:background="@color/IBS"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/WHITE"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+        <Spinner
+            android:id="@+id/ddl19"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:background="@color/GRAY" />
+
+        <Spinner
+            android:id="@+id/ddl20"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:background="@color/WHITE" />
+
+        <Spinner
+            android:id="@+id/ddl21"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:background="@color/GRAY" />
+
+        <Spinner
+            android:id="@+id/ddl22"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:background="@color/WHITE" />
+
+        <Button
+            android:id="@+id/btnSalvarCheck"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:background="@color/ORANGE"
+            android:text="SALVAR CHECKLIST"
+            android:textColor="@color/WHITE"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

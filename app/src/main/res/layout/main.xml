@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lmain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical" >
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tb_main"
+        android:elevation="4dp"
+        android:layout_height="60dp"
+        android:layout_width="match_parent"
+        android:layout_alignParentLeft="true"
+        android:background="?attr/colorPrimary"
+         />
+
+
+      <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="514dp"
+            android:layout_y="5dp" >
+
+            <LinearLayout
+                android:id="@+id/lmain02"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+                
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="496dp"
+        android:orientation="vertical" >
+       
+        <TextView
+            android:id="@+id/lblBrinco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="50dp"
+            android:layout_y="112dp"
+            android:text="@string/cliente"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:visibility="gone" />
+
+        <Spinner
+            android:id="@+id/ddlCliente"
+            android:layout_width="320dp"
+            android:layout_height="41dp"
+            android:layout_x="30dp"
+            android:layout_y="134dp"
+            android:background="@drawable/round"
+            android:spinnerMode="dialog"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/lblNome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="50dp"
+            android:layout_y="182dp"
+            android:text="PROJETO"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:visibility="gone" />
+
+        <Spinner
+            android:id="@+id/ddlProjeto"
+            android:layout_width="320dp"
+            android:layout_height="41dp"
+            android:layout_x="30dp"
+            android:layout_y="204dp"
+            android:background="@drawable/round"
+            android:spinnerMode="dialog"
+            android:textColor="@color/black" />
+
+        <Spinner
+            android:id="@+id/ddlGrupo"
+            android:layout_width="321dp"
+            android:layout_height="41dp"
+            android:layout_weight="1"
+            android:layout_x="30dp"
+            android:layout_y="274dp"
+            android:background="@drawable/round"
+            android:dropDownWidth="50dp"
+            android:gravity="center"
+            android:spinnerMode="dialog"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/lblStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="50dp"
+            android:layout_y="252dp"
+            android:text="GRUPO"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:visibility="gone" />
+        
+         <TextView
+             android:id="@+id/lbl"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_x="50dp"
+             android:layout_y="322dp"
+             android:text="PRODUTOR"
+             android:background="@drawable/round"
+             android:textAppearance="?android:attr/textAppearanceLarge"
+             android:textColor="@color/black"
+             android:textSize="18sp"
+             android:visibility="gone" />
+         
+           <Spinner
+               android:id="@+id/ddlProdutor"
+               android:layout_width="321dp"
+               android:layout_height="41dp"
+               android:layout_weight="1"
+               android:layout_x="30dp"
+               android:layout_y="344dp"
+               android:background="@drawable/round"
+               android:dropDownWidth="50dp"
+               android:gravity="center"
+               android:spinnerMode="dialog"
+               android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/btnLoad"
+            android:layout_width="331dp"
+            android:layout_x="25dp"
+            android:layout_y="405dp"
+            android:text="CARREGAR"
+            android:textStyle="bold"
+            android:background="@drawable/button"
+            android:textSize="20dp"
+            android:textColor="@color/WHITE"
+            android:layout_height="50dp" />
+
+          </AbsoluteLayout>
+        
+            </LinearLayout>
+        </ScrollView>
+
+
+</LinearLayout>

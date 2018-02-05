@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ddlOrigem"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:theme="@android:style/Theme.DeviceDefault.Light.DarkActionBar">
+
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="372dp"
+        android:layout_height="wrap_content"
+
+        android:background="@color/ORANGE"
+        android:gravity="center"
+        android:text="SELECIONE O PRODUTOR"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/WHITE"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="187dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:text="PRODUTOR"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Spinner
+        android:id="@+id/ddlProdutorChange"
+        android:layout_width="320dp"
+        android:layout_height="39dp"
+        android:layout_marginLeft="30dp"
+
+        android:background="@drawable/round"
+        android:spinnerMode="dialog" />
+
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/btnCancelaN"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+
+            android:layout_weight="0.36"
+            android:text="CANCELAR" />
+
+        <Button
+            android:id="@+id/btnMudar"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_weight="0.38"
+            android:text="CARREGAR"
+            android:textColor="#000"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/lblPesoAtual"
+        android:layout_width="372dp"
+        android:layout_height="wrap_content"
+        android:background="@color/ORANGE"
+        android:gravity="center"
+        android:text="   "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/WHITE"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

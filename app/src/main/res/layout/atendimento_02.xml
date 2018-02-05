@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/WHITE"
+    android:orientation="vertical" >
+
+    <AbsoluteLayout
+        android:id="@+id/btnLoad"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/lblUltimoParto"
+            android:layout_width="1100dp"
+            android:layout_height="104dp"
+            android:layout_x="-1dp"
+            android:layout_y="-5dp"
+            android:background="@color/IBS"
+            android:gravity="center_horizontal"
+            android:text="   "
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/WHITE"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtProjeto"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_x="2dp"
+            android:layout_y="1dp"
+            android:background="@color/IBS"
+            android:text="PROJETO"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/WHITE"
+            android:textStyle="italic" />
+
+        <ImageButton
+            android:id="@+id/btnData2"
+            android:layout_width="05dp"
+            android:layout_height="wrap_content"
+            android:layout_x="743dp"
+            android:layout_y="150dp"
+            android:src="@drawable/calendar_icon"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/nome_usual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="40dp"
+            android:layout_y="130dp"
+            android:text="NOME / N. ANIMAL"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="40dp"
+            android:layout_y="196dp"
+            android:text="DATA ATENDIMENTO"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/txtDtAtendimento"
+            android:layout_width="272dp"
+            android:layout_height="35dp"
+            android:layout_x="40dp"
+            android:layout_y="218dp"
+            android:background="@drawable/round"
+            android:ems="10"
+            android:inputType="textCapCharacters"
+            android:textColor="#000" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/TextView05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="40dp"
+            android:layout_y="268dp"
+            android:text="RAÇA"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="16sp" />
+
+        <Spinner
+            android:id="@+id/ddlRacas"
+            android:layout_width="273dp"
+            android:layout_height="35dp"
+            android:layout_x="40dp"
+            android:layout_y="290dp"
+            android:background="@drawable/round"
+            android:spinnerMode="dropdown" />
+
+        <TextView
+            android:id="@+id/TextView06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="325dp"
+            android:layout_y="268dp"
+            android:text="NOME TOURO"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="16sp" />
+
+        <Spinner
+            android:id="@+id/ddlTouro"
+            android:layout_width="447dp"
+            android:layout_height="35dp"
+            android:layout_x="325dp"
+            android:layout_y="290dp"
+            android:background="@drawable/round"
+            android:spinnerMode="dropdown" />
+
+        <TextView
+            android:id="@+id/TextView07"
+            android:layout_width="1100dp"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="500dp"
+            android:background="@color/IBS"
+            android:gravity="center_horizontal"
+            android:text="    "
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/WHITE"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnSalvarPaper"
+            android:layout_width="128dp"
+            android:layout_height="114dp"
+            android:layout_x="800dp"
+            android:layout_y="304dp"
+            android:text="SALVAR"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/lblDtSecagem"
+            android:layout_width="645dp"
+            android:layout_height="wrap_content"
+            android:layout_x="285dp"
+            android:layout_y="50dp"
+            android:background="@color/IBS"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/WHITE"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/Spinner01"
+            android:layout_width="737dp"
+            android:layout_height="35dp"
+            android:layout_x="40dp"
+            android:layout_y="151dp"
+            android:background="@drawable/round"
+            android:spinnerMode="dialog" />
+
+        <Spinner
+            android:id="@+id/ddlIATF"
+            android:layout_width="737dp"
+            android:layout_height="35dp"
+            android:layout_x="40dp"
+            android:layout_y="370dp"
+            android:background="@drawable/round"
+            android:spinnerMode="dialog" />
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="40dp"
+            android:layout_y="344dp"
+            android:text="O PROCESSO DE IATF FOI FINDADO?"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="16sp" />
+
+        <Spinner
+            android:id="@+id/ddlD8"
+            android:layout_width="447dp"
+            android:layout_height="35dp"
+            android:layout_x="325dp"
+            android:layout_y="219dp"
+            android:background="@drawable/round"
+            android:spinnerMode="dialog" />
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="325dp"
+            android:layout_y="196dp"
+            android:text="O PROCESSO D8 FOI REALIZADO SEM PROBLEMAS?"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnLoadLast"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="756dp"
+            android:layout_y="146dp"
+            android:text="Último"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/txtGrupo"
+            android:layout_width="285dp"
+            android:layout_height="wrap_content"
+            android:layout_x="2dp"
+            android:layout_y="30dp"
+            android:background="@color/IBS"
+            android:text="GRUPO"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/WHITE"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/txtReferencia"
+            android:layout_width="288dp"
+            android:layout_height="wrap_content"
+            android:layout_x="295dp"
+            android:layout_y="1dp"
+            android:background="@color/IBS"
+            android:text="REFERÊNCIA"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/WHITE"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/txtProdutor"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_x="2dp"
+            android:layout_y="60dp"
+            android:background="@color/IBS"
+            android:text="PRODUTOR"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/WHITE"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/TextView08"
+            android:layout_width="649dp"
+            android:layout_height="wrap_content"
+            android:layout_x="292dp"
+            android:layout_y="73dp"
+            android:text="ATENDIMENTO 02 - INSEMINAÇÃO ARTIFICIAL"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:text="Data IA"
+            android:layout_width="124dp"
+            android:layout_height="wrap_content"
+            android:layout_x="800dp"
+            android:layout_y="238dp"
+            android:id="@+id/btnData" />
+
+        <ImageButton
+            android:id="@+id/btnSemem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="803dp"
+            android:layout_y="111dp"
+            android:background="#fff"
+            android:src="@drawable/list" />
+
+    </AbsoluteLayout>
+
+</LinearLayout>

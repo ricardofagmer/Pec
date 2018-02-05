@@ -1,0 +1,42 @@
+<resources>
+
+    <style name="Theme.MyTheme" parent="MaterialDrawerBaseTheme.Light">
+        <!-- colorPrimary is used for the default action bar background -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+
+        <!-- colorPrimaryDark is used for the status bar -->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+
+        <!-- colorAccent is used as the default value for colorControlActivated,
+             which is used to tint widgets -->
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- You can also set colorControlNormal, colorControlActivated
+             colorControlHighlight, and colorSwitchThumbNormal. -->
+
+        <item name="colorControlNormal">@android:color/black</item>
+
+        <!-- MaterialDrawer specific values -->
+        <item name="material_drawer_primary_text">@color/colorPrimarytext</item>
+        <item name="material_drawer_selected_text">@color/colorPrimary</item>
+    </style>
+
+    <style name="Theme.MyThemeBottom" parent="Theme.MyTheme">
+        <item name="colorPrimary">@android:color/black</item>
+
+    </style>
+
+    <color name="titlecolor">#000000</color>
+    <color name="IBS">#1E90FF</color>
+    <color name="WHITE">#ffffff</color>
+    <color name="GRAY">#dcdcdc</color>
+    <color name="ORANGE">#ff7f00</color>
+    <color name="GREEN">#58fa58</color>
+
+
+    <color name="White">#fff</color>
+    <color name="gray">#D8D8D8</color>
+    <color name="green">#32CD32</color>
+    <color name="red">#FF0000</color>
+
+</resources>

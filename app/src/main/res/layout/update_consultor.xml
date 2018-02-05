@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="CRMV / CREA"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/txtCREAConsultor"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/round"
+        android:ems="10"
+        android:inputType="textCapCharacters" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Nome"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/txtNomeConsultor"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/round"
+        android:ems="10"
+        android:inputType="textCapCharacters" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Informe o Login (Verificar com a equipe de TI)"
+        android:visibility="visible"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/txtIDConsultor"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:visibility="visible"
+        android:background="@drawable/round"
+        android:ems="10"
+        android:inputType="textCapCharacters" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/btnGravaID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Gravar" />
+
+</LinearLayout>

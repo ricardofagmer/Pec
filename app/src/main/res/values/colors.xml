@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="grey">#ddd</color>
+    <color name="black">#000</color>
+
+    <color name="colorPrimary">#ff5722</color>
+    <color name="colorPrimaryDark">#E64A19</color>
+    <color name="colorAccent">#795548</color>
+    <color name="colorPrimarytext">#212121</color>
+    <color name="colorSecondText">#999</color>
+    <color name="coloLink">#FF5722</color>
+    <color name="ligthred">#F5A9BC</color>
+    <color name="back_spinner">#F5D0A9</color>
+    <color name="colorFAB">#1E90FF</color>
+    <color name="colorFABressed">#585555</color>
+</resources>

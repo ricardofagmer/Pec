@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ddlOrigem"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@android:style/Theme.DeviceDefault.Light.DarkActionBar"
+    android:background="#fff">
+
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="match_parent"
+        android:background="@color/black"
+        android:gravity="center"
+        android:text="LANÇAMENTO FINANCEIRO"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/WHITE"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_height="35dp" />
+
+    <RadioGroup
+        android:id="@+id/rdTipo"
+        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="35dp">
+
+        <RadioButton
+            android:text="Despesa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:id="@+id/rbDespesa" />
+
+        <RadioButton
+            android:text="Receita"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rbReceita" />
+
+    </RadioGroup>
+
+
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rdTipo"
+        android:layout_alignLeft="@+id/rdTipo"
+        android:layout_alignStart="@+id/rdTipo"
+        android:layout_marginTop="28dp"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/ddlItem"
+        android:layout_alignRight="@+id/rdTipo"
+        android:layout_alignEnd="@+id/rdTipo"
+        android:spinnerMode="dialog"
+        android:textAlignment="gravity"
+        android:gravity="left|start"
+        android:foregroundGravity="left"
+        android:elevation="4dp" />
+
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:layout_below="@+id/ddlItem"
+        android:layout_alignLeft="@+id/ddlItem"
+        android:layout_alignStart="@+id/ddlItem"
+        android:layout_marginTop="34dp"
+        android:id="@+id/txtQtdade"
+        android:layout_alignRight="@+id/ddlItem"
+        android:layout_alignEnd="@+id/ddlItem"
+        android:hint="Quantidade" />
+
+    <Button
+        android:text="CANCELAR"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:id="@+id/btnCancelar"
+        android:textSize="14dp"
+        android:background="@color/common_action_bar_splitter"
+        android:layout_below="@+id/txtValor"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_width="130dp"
+        android:layout_marginLeft="5dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/txtValor"
+        android:hint="R$ (valor unitário)"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@+id/txtQtdade"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="51dp"
+        android:layout_alignRight="@+id/txtQtdade"
+        android:layout_alignEnd="@+id/txtQtdade" />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSalvar"
+        android:text="SALVAR"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:background="@drawable/button"
+        android:textColor="@color/WHITE"
+        android:layout_alignBaseline="@+id/btnCancelar"
+        android:layout_alignBottom="@+id/btnCancelar"
+        android:layout_alignRight="@+id/txtValor"
+        android:layout_alignEnd="@+id/txtValor"
+        android:layout_width="130dp" />
+
+    <TextView
+        android:id="@+id/TextView021"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:gravity="center"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/WHITE"
+        android:textStyle="bold"
+        android:layout_marginTop="43dp"
+        android:layout_below="@+id/btnCancelar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="CLIQUE SOBRE UM ITEM PARA REMOVER DA LISTA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView10"
+        android:textSize="11dp"
+        android:layout_below="@+id/TextView03"
+        android:layout_toRightOf="@+id/rdTipo"
+        android:layout_toEndOf="@+id/rdTipo"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp"
+        android:background="@color/GRAY"
+        android:textStyle="normal|bold"
+        android:gravity="center" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/lv"
+        android:layout_below="@+id/textView10"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignLeft="@+id/textView10"
+        android:layout_alignStart="@+id/textView10"
+        android:layout_above="@+id/TextView021" />
+
+    <TextView
+        android:text="Item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rdTipo"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="11dp"
+        android:id="@+id/lblTitulo"
+        android:layout_marginLeft="5dp"
+        android:layout_alignRight="@+id/ddlItem"
+        android:layout_alignEnd="@+id/ddlItem"
+        android:background="@color/GRAY"
+        android:textStyle="normal|bold" />
+
+</RelativeLayout>

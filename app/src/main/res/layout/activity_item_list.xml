@@ -1,0 +1,14 @@
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/item_list"
+    android:name="com.pec.biosistemico.pec.ItemListFragment"
+    android:layout_width="1500dp"
+    android:layout_height="1500dp"
+    android:layout_marginLeft="0dp"
+    android:layout_marginRight="0dp"
+    tools:context="com.pec.biosistemico.pec.ItemListActivity"
+    tools:layout="@android:layout/list_content" />
+
+
+  
+

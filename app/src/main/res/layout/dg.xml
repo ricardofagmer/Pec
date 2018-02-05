@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ddlOrigem"
+    android:theme="@android:style/Theme.DeviceDefault.Light.DarkActionBar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <EditText
+        android:id="@+id/txtNomeN"
+        android:layout_width="220dp"
+        android:layout_height="30dp"
+        android:layout_x="80dp"
+        android:layout_y="72dp"
+        android:background="@drawable/round"
+        android:ems="10"
+        android:inputType="date"
+        android:textColor="#000" >
+
+        <requestFocus />
+    </EditText>
+
+    <Spinner
+        android:id="@+id/ddlStatusProduvitoDG"
+        android:layout_width="220dp"
+        android:layout_height="39dp"
+        android:layout_x="80dp"
+        android:layout_y="136dp"
+        android:background="@drawable/round" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="80dp"
+        android:layout_y="113dp"
+        android:text="Status Produtivo"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/txtDtNascN"
+        android:layout_width="220dp"
+        android:layout_height="30dp"
+        android:layout_x="80dp"
+        android:layout_y="213dp"
+        android:background="@drawable/round"
+        android:ems="10"
+        android:inputType="date"
+        android:textColor="#000" />
+
+    <Button
+        android:id="@+id/btnSalvarN"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_x="80dp"
+        android:layout_y="245dp"
+        android:text="SALVAR"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnCancelaN"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_x="80dp"
+        android:layout_y="302dp"
+        android:text="Cancelar" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="80dp"
+        android:layout_y="187dp"
+        android:text="Nº de dias"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/lblVaca"
+        android:layout_width="266dp"
+        android:layout_height="wrap_content"
+        android:layout_x="80dp"
+        android:layout_y="47dp"
+        android:text="Data do diagnóstico"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_x="77dp"
+        android:layout_y="363dp" />
+
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="372dp"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:background="#000"
+        android:gravity="center"
+        android:text="DIAGNOSTICO DE GESTAÇÃO"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/WHITE"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lblPesoAtual"
+        android:layout_width="372dp"
+        android:layout_height="wrap_content"
+        android:layout_x="1dp"
+        android:layout_y="393dp"
+        android:background="#000"
+        android:gravity="center"
+        android:text="   "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/WHITE"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lblmessageDG"
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:layout_x="25dp"
+        android:layout_y="361dp"
+        android:text="   "
+        android:textSize="14sp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FF0000" />
+
+    <ImageButton
+        android:id="@+id/btnDataCalendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="304dp"
+        android:layout_y="63dp"
+        android:background="@color/WHITE"
+        android:src="@drawable/calendar_icon" />
+
+</AbsoluteLayout>

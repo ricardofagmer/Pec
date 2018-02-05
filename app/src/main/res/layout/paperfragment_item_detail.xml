@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/WHITE"
+    android:orientation="vertical">
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_x="10dp"
+        android:layout_y="1dp" >
+
+        <AbsoluteLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/item_detail"
+                style="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_x="830dp"
+                android:gravity="center_horizontal"
+                android:padding="16dp"
+                android:textColor="@color/titlecolor"
+                android:textIsSelectable="true"
+                android:textSize="14sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/nome_usual"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="6dp"
+                android:layout_y="80dp"
+                android:text="BRINCO"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/lblUltimoParto"
+                android:layout_width="1300dp"
+                android:layout_x="-1dp"
+                android:layout_y="-2dp"
+                android:background="#000"
+                android:gravity="bottom|center_horizontal"
+                android:text="      "
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/WHITE"
+                android:textSize="14sp"
+                android:textStyle="italic"
+                android:layout_height="75dp" />
+
+            <TextView
+                android:id="@+id/status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="84dp"
+                android:layout_y="80dp"
+                android:text="NOME USUAL"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/data_secagem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="338dp"
+                android:layout_y="80dp"
+                android:text="STATUS"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/txtProjeto"
+                android:layout_width="283dp"
+                android:layout_height="wrap_content"
+                android:layout_x="0dp"
+                android:layout_y="1dp"
+                android:background="#000"
+                android:text="PROJETO"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/WHITE"
+                android:textSize="14sp"
+                android:textStyle="italic" />
+
+            <EditText
+                android:id="@+id/txtBrinco"
+                android:layout_width="69dp"
+                android:layout_height="wrap_content"
+                android:layout_x="6dp"
+                android:layout_y="100dp"
+                android:background="@drawable/round"
+                android:ems="10"
+                android:inputType="number"
+                android:textColor="#000" />
+
+            <EditText
+                android:id="@+id/txtConsultor"
+                android:layout_width="242dp"
+                android:layout_height="wrap_content"
+                android:layout_x="84dp"
+                android:layout_y="100dp"
+                android:background="@drawable/round"
+                android:ems="10"
+                android:inputType="textCapCharacters"
+                android:textColor="#000" />
+
+            <EditText
+                android:id="@+id/txtDataSecagem"
+                android:layout_width="132dp"
+                android:layout_height="wrap_content"
+                android:layout_x="550dp"
+                android:layout_y="100dp"
+                android:background="@drawable/round"
+                android:ems="10"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/ultimo_parto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="550dp"
+                android:layout_y="80dp"
+                android:text="DATA SECAGEM"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="13sp" />
+
+            <ImageButton
+                android:id="@+id/btnData"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="683dp"
+                android:layout_y="94dp"
+                android:background="@color/WHITE"
+                android:src="@drawable/calendar_icon" />
+
+            <ImageButton
+                android:id="@+id/btnData2"
+                android:layout_width="05dp"
+                android:layout_height="wrap_content"
+                android:layout_x="743dp"
+                android:layout_y="150dp"
+                android:src="@drawable/calendar_icon"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="1300dp"
+                android:layout_height="wrap_content"
+                android:layout_x="-1dp"
+                android:layout_y="126dp"
+                android:background="#000"
+                android:gravity="center_horizontal|left"
+                android:text=" ID     BRINCO           NOME USUAL                     STATUS     DT.SECAGEM   PESO ATUAL            CAT.ATUAL            PREV. PARTO     OCORRENCIA    N.DIAS  ULTIMO PARTO"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/WHITE"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/TextView02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="740dp"
+                android:layout_y="80dp"
+                android:text="OCORRÊNCIA"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="14sp" />
+
+            <Spinner
+                android:id="@+id/ddlOcorrencia"
+                android:layout_width="140dp"
+                android:layout_height="25dp"
+                android:layout_x="740dp"
+                android:layout_y="100dp"
+                android:background="@drawable/round"
+                android:spinnerMode="dialog" />
+
+            <EditText
+                android:id="@+id/txtPesoAtual"
+                android:layout_width="86dp"
+                android:layout_height="wrap_content"
+                android:layout_x="453dp"
+                android:layout_y="100dp"
+                android:background="@drawable/round"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textColor="#000" />
+
+            <Spinner
+                android:id="@+id/ddlVacina"
+                android:layout_width="109dp"
+                android:layout_height="25dp"
+                android:layout_x="336dp"
+                android:layout_y="100dp"
+                android:background="@drawable/round"
+                android:spinnerMode="dialog" />
+
+            <TextView
+                android:id="@+id/obs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="453dp"
+                android:layout_y="80dp"
+                android:text="PESO ATUAL"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="14sp" />
+
+            <ListView
+                android:id="@+id/listView1"
+                android:layout_width="1300dp"
+                android:layout_height="335dp"
+                android:layout_gravity="top"
+                android:layout_x="0dp"
+                android:layout_y="160dp"
+                android:backgroundTintMode="screen"
+                android:headerDividersEnabled="true"
+                android:scrollbars="vertical" >
+            </ListView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <ScrollView
+                android:id="@+id/scrollView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="120dp"
+                android:layout_y="227dp" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+                </LinearLayout>
+            </ScrollView>
+
+            <ScrollView
+                android:id="@+id/scrollView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="217dp"
+                android:layout_y="335dp" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+                </LinearLayout>
+            </ScrollView>
+
+            <EditText
+                android:id="@+id/txtMedia"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_x="900dp"
+                android:layout_y="100dp"
+                android:background="@drawable/round"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/TextView03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="900dp"
+                android:layout_y="80dp"
+                android:text="PRODUÇÃO DIA"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/txtGrupo"
+                android:layout_width="284dp"
+                android:layout_height="wrap_content"
+                android:layout_x="0dp"
+                android:layout_y="24dp"
+                android:background="#000"
+                android:text="GRUPO"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/WHITE"
+                android:textSize="14sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/txtProdutor"
+                android:layout_width="285dp"
+                android:layout_height="wrap_content"
+                android:layout_x="0dp"
+                android:layout_y="46dp"
+                android:background="#000"
+                android:text="PRODUTOR"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/WHITE"
+                android:textSize="14sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/txtReferencia"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_x="333dp"
+                android:layout_y="1dp"
+                android:background="#000"
+                android:text="REFERÊNCIA"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/WHITE"
+                android:textSize="14sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/txtDtColeta"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_x="333dp"
+                android:layout_y="20dp"
+                android:background="#000"
+                android:text="DATA DA COLETA"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/WHITE"
+                android:textSize="14sp"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/btnDg"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_x="500dp"
+                android:layout_y="12dp"
+                android:background="#DCD3D3"
+                android:text="DG" />
+
+            <Button
+                android:id="@+id/btnParto"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_x="615dp"
+                android:layout_y="12dp"
+                android:background="#DCD3D3"
+                android:text="PARTO" />
+
+            <Button
+                android:id="@+id/btnNovo"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_x="730dp"
+                android:layout_y="12dp"
+                android:textSize="12dp"
+                android:background="#DCD3D3"
+                android:text="NOVO ANIMAL" />
+
+            <com.github.clans.fab.FloatingActionMenu
+                android:id="@+id/menu"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="05dp"
+                android:layout_marginBottom="0dp"
+                android:layout_marginLeft="0dp"
+                menu_fab_size="normal"
+                menu_showShadow="false"
+                menu_shadowColor="#66000000"
+                menu_shadowRadius="4dp"
+                menu_shadowXOffset="1dp"
+                menu_shadowYOffset="3dp"
+                menu_colorNormal="#8635bef9"
+                menu_colorPressed="#5e5e5e"
+                menu_colorRipple="#99FFFFFF"
+                menu_animationDelayPerItem="50"
+                menu_icon="@drawable/fab_add"
+                menu_buttonSpacing="0dp"
+                menu_labels_margin="0dp"
+                menu_labels_showAnimation="@anim/fab_slide_in_from_right"
+                menu_labels_hideAnimation="@anim/fab_slide_out_to_right"
+                menu_labels_paddingTop="4dp"
+                menu_labels_paddingRight="8dp"
+                menu_labels_paddingBottom="4dp"
+                menu_labels_paddingLeft="8dp"
+                menu_labels_padding="8dp"
+                menu_labels_textColor="#FFFFFF"
+                menu_labels_textSize="14sp"
+                menu_labels_cornerRadius="3dp"
+                menu_labels_colorNormal="#333333"
+                menu_labels_colorPressed="#444444"
+                menu_labels_colorRipple="#66FFFFFF"
+                menu_labels_showShadow="true"
+                menu_labels_singleLine="false"
+                menu_labels_ellipsize="none"
+                menu_labels_maxLines="-1"
+                menu_labels_style="@style/Theme.MyTheme"
+                menu_labels_position="left"
+                menu_openDirection="up"
+                menu_backgroundColor="@android:color/darker_gray"
+                menu_fab_label="Menu"
+                menu_fab_show_animation="@anim/abc_shrink_fade_out_from_bottom"
+                menu_fab_hide_animation="@anim/abc_fade_in"
+                android:layout_x="770dp"
+                android:layout_y="200dp"
+                android:elevation="21dp"
+                app:menu_labels_showShadow="true">
+
+                <com.github.clans.fab.FloatingActionButton
+                    android:id="@+id/fbhome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/home"
+                    menu_colorNormal="#8635bef9"
+                    menu_colorPressed="#5e5e5e"
+                    app:fab_label="Home"
+                    fab_size="normal"
+                    fab_label="Home" />
+
+                <com.github.clans.fab.FloatingActionButton
+                    android:id="@+id/fbChange"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/farmer"
+                    menu_colorNormal="#8635bef9"
+                    app:fab_label="Trocar Produtor"
+                    menu_colorPressed="#49a1a1a1"
+                    fab_size="normal"
+                    />
+
+                <com.github.clans.fab.FloatingActionButton
+                    android:id="@+id/fbBkp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bkp"
+                    menu_colorNormal="#8635bef9"
+                    app:fab_label="Backup Banco de Dados"
+                    menu_colorPressed="#49a1a1a1"
+                    fab_size="normal"
+                    />
+
+                <com.github.clans.fab.FloatingActionButton
+                    android:id="@+id/fbFinanceiro"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bkp"
+                    menu_colorNormal="#8635bef9"
+                    app:fab_label="Inserir Despesas / Receitas"
+                    menu_colorPressed="#49a1a1a1"
+                    fab_size="normal"
+                    />
+
+            </com.github.clans.fab.FloatingActionMenu>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/lblDG"
+                android:layout_x="850dp"
+                android:layout_y="10dp"
+                android:textStyle="italic"
+                android:textColor="@color/ORANGE" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/lblParto"
+                android:layout_x="850dp"
+                android:layout_y="36dp"
+                android:textStyle="italic"
+                android:textColor="@color/ORANGE" />
+        </AbsoluteLayout>
+
+    </HorizontalScrollView>
+
+
+
+
+
+
+
+
+</LinearLayout>

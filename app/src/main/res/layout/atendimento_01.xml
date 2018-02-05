@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/WHITE"
+    android:orientation="vertical" >
+
+    <AbsoluteLayout
+        android:id="@+id/btnLoad"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/lblUltimoParto"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_x="0dp"
+            android:layout_y="0dp"
+            android:background="@color/green"
+            android:gravity="center_horizontal"
+            android:text="   "
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/WHITE"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtProjeto"
+            android:layout_width="384dp"
+            android:layout_height="wrap_content"
+            android:layout_x="2dp"
+            android:layout_y="5dp"
+            android:background="@color/green"
+            android:text="PROJETO"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/WHITE"
+            android:textStyle="italic" />
+
+        <ImageButton
+            android:id="@+id/btnData2"
+            android:layout_width="05dp"
+            android:layout_height="wrap_content"
+            android:layout_x="743dp"
+            android:layout_y="150dp"
+            android:src="@drawable/calendar_icon"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/nome_usual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="50dp"
+            android:layout_y="130dp"
+            android:text="NOME / N. ANIMAL"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="50dp"
+            android:layout_y="280dp"
+            android:text="FOI FEITA A VACINA DE IBR, BVD E LEPTO ?"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="16sp" />
+
+        <Spinner
+            android:id="@+id/ddlVacina"
+            android:layout_width="737dp"
+            android:layout_height="35dp"
+            android:layout_x="50dp"
+            android:layout_y="307dp"
+            android:background="@drawable/round"
+            android:spinnerMode="dialog" />
+
+        <ImageButton
+            android:id="@+id/btnShare"
+            android:layout_width="58dp"
+            android:layout_height="61dp"
+            android:layout_x="197dp"
+            android:layout_y="203dp"
+            android:src="@drawable/calendar_icon"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/TextView07"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="500dp"
+            android:background="@color/green"
+            android:gravity="center_horizontal"
+            android:text="    "
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/WHITE"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnSalvarPaper"
+            android:layout_width="128dp"
+            android:layout_height="114dp"
+            android:layout_x="850dp"
+            android:layout_y="304dp"
+            android:text="SALVAR"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnLoadLast"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="108dp"
+            android:layout_height="wrap_content"
+            android:layout_x="764dp"
+            android:layout_y="145dp"
+            android:text="Último"
+            android:visibility="invisible" />
+
+        <Spinner
+            android:id="@+id/ddlVaca"
+            android:layout_width="736dp"
+            android:layout_height="35dp"
+            android:layout_x="50dp"
+            android:layout_y="152dp"
+            android:background="@drawable/round"
+            android:spinnerMode="dialog" />
+
+        <TextView
+            android:id="@+id/txtGrupo"
+            android:layout_width="395dp"
+            android:layout_height="wrap_content"
+            android:layout_x="2dp"
+            android:layout_y="37dp"
+            android:background="@color/green"
+            android:text="GRUPO"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/WHITE"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/txtProdutor"
+            android:layout_width="392dp"
+            android:layout_height="wrap_content"
+            android:layout_x="2dp"
+            android:layout_y="65dp"
+            android:background="@color/green"
+            android:text="PRODUTOR"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/WHITE"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/TextView08"
+            android:layout_width="649dp"
+            android:layout_height="wrap_content"
+            android:layout_x="393dp"
+            android:layout_y="65dp"
+            android:text="ATENDIMENTO 01 - RUFIÃO D0"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtReferencia"
+            android:layout_width="288dp"
+            android:layout_height="wrap_content"
+            android:layout_x="393dp"
+            android:layout_y="5dp"
+            android:background="@color/green"
+            android:text="REFERÊNCIA"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/WHITE"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/txtDtInseminacao"
+            android:layout_width="241dp"
+            android:layout_height="35dp"
+            android:layout_x="546dp"
+            android:layout_y="225dp"
+            android:background="@drawable/round"
+            android:ems="10"
+            android:inputType="textCapCharacters"
+            android:textColor="#000" >
+
+            <requestFocus />
+        </EditText>
+
+        <Spinner
+            android:id="@+id/ddlTouro"
+            android:layout_width="447dp"
+            android:layout_height="35dp"
+            android:layout_x="342dp"
+            android:layout_y="384dp"
+            android:background="@drawable/round"
+            android:spinnerMode="dialog" />
+
+        <Spinner
+            android:id="@+id/ddlRacas"
+            android:layout_width="273dp"
+            android:layout_height="35dp"
+            android:layout_x="50dp"
+            android:layout_y="385dp"
+            android:background="@drawable/round"
+            android:spinnerMode="dialog" />
+
+        <TextView
+            android:id="@+id/TextView05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="53dp"
+            android:layout_y="365dp"
+            android:text="RAÇA"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/txtDtProtocolo"
+            android:layout_width="240dp"
+            android:layout_height="35dp"
+            android:layout_x="288dp"
+            android:layout_y="225dp"
+            android:background="@drawable/round"
+            android:ems="10"
+            android:inputType="textCapCharacters"
+            android:textColor="#000" />
+
+        <EditText
+            android:id="@+id/txtDtAtendimento"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_x="51dp"
+            android:layout_y="225dp"
+            android:background="@drawable/round"
+            android:ems="10"
+            android:inputType="textCapCharacters"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="51dp"
+            android:layout_y="205dp"
+            android:text="DATA ATENDIMENTO - ( D0 )"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="288dp"
+            android:layout_y="205dp"
+            android:text="DATA PROTOCOLO - ( D8 )"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/TextView03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="548dp"
+            android:layout_y="205dp"
+            android:text="DATA INSEMINAÇÃO - ( D10 )"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/TextView06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="346dp"
+            android:layout_y="365dp"
+            android:text="NOME TOURO"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="16sp" />
+
+        <Button
+            android:text="Data D0"
+            android:layout_width="124dp"
+            android:layout_height="wrap_content"
+            android:layout_x="845dp"
+            android:layout_y="149dp"
+            android:id="@+id/btnData" />
+    </AbsoluteLayout>
+
+</LinearLayout>

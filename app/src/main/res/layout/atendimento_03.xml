@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/WHITE"
+    android:orientation="vertical" >
+
+    <AbsoluteLayout
+        android:id="@+id/btnLoad"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/lblUltimoParto"
+            android:layout_width="1100dp"
+            android:layout_height="124dp"
+            android:layout_x="-1dp"
+            android:layout_y="-3dp"
+            android:background="@color/red"
+            android:gravity="bottom|center_horizontal|left"
+            android:text=" INSEMINAÇÃO                                                      DIAGNÓSTICO"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/WHITE"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtProjeto"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_x="3dp"
+            android:layout_y="1dp"
+            android:background="@color/red"
+            android:text="PROJETO"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/WHITE"
+            android:textStyle="italic" />
+
+        <ImageButton
+            android:id="@+id/btnData2"
+            android:layout_width="05dp"
+            android:layout_height="wrap_content"
+            android:layout_x="743dp"
+            android:layout_y="150dp"
+            android:src="@drawable/calendar_icon"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/TextView07"
+            android:layout_width="1100dp"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="500dp"
+            android:background="@color/red"
+            android:gravity="center_horizontal"
+            android:text="    "
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/WHITE"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/lblAnimal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="678dp"
+            android:layout_y="147dp"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="16sp" />
+
+        <ListView
+            android:id="@+id/lstAnimals"
+            android:layout_width="319dp"
+            android:layout_height="378dp"
+            android:layout_y="121dp"
+            android:background="#FFE5CC"
+            android:fastScrollEnabled="true"
+            android:scrollbars="vertical" >
+        </ListView>
+
+        <TextView
+            android:id="@+id/lblPrevisao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="678dp"
+            android:layout_y="248dp"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnSalvarPaper"
+            android:layout_width="274dp"
+            android:layout_height="wrap_content"
+            android:layout_x="678dp"
+            android:layout_y="420dp"
+            android:text="SALVAR"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/lblIA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="678dp"
+            android:layout_y="200dp"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txtGrupo"
+            android:layout_width="288dp"
+            android:layout_height="wrap_content"
+            android:layout_x="3dp"
+            android:layout_y="31dp"
+            android:background="@color/red"
+            android:text="GRUPO"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/WHITE"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/txtProdutor"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_x="3dp"
+            android:layout_y="60dp"
+            android:background="@color/red"
+            android:text="PRODUTOR"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/WHITE"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/txtReferencia"
+            android:layout_width="288dp"
+            android:layout_height="wrap_content"
+            android:layout_x="334dp"
+            android:layout_y="2dp"
+            android:background="@color/red"
+            android:text="REFERÊNCIA"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/WHITE"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/TextView08"
+            android:layout_width="649dp"
+            android:layout_height="wrap_content"
+            android:layout_x="334dp"
+            android:layout_y="60dp"
+            android:text="ATENDIMENTO 03 - DIAGNOSTICO DE GESTAÇÃO"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TextView05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="678dp"
+            android:layout_y="295dp"
+            android:text="N. DIAS"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtNDias"
+            android:layout_width="91dp"
+            android:layout_height="35dp"
+            android:layout_x="678dp"
+            android:layout_y="317dp"
+            android:background="@drawable/round"
+            android:ems="10"
+            android:inputType="number" />
+
+        <Spinner
+            android:id="@+id/ddlDG"
+            android:layout_width="145dp"
+            android:layout_height="35dp"
+            android:layout_x="792dp"
+            android:layout_y="317dp"
+            android:background="@drawable/round"
+            android:spinnerMode="dialog" />
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="794dp"
+            android:layout_y="295dp"
+            android:text="DIAGNOSTICO"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TextView03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="678dp"
+            android:layout_y="231dp"
+            android:text="PREVISÃO DE PARTO"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="678dp"
+            android:layout_y="179dp"
+            android:text="DATA DA INSEMINAÇÃO"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="678dp"
+            android:layout_y="132dp"
+            android:text="ANIMAL "
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ListView
+            android:id="@+id/lstDG"
+            android:layout_width="321dp"
+            android:layout_height="378dp"
+            android:layout_x="330dp"
+            android:layout_y="121dp"
+            android:fastScrollEnabled="true"
+            android:scrollbars="vertical" >
+        </ListView>
+    </AbsoluteLayout>
+
+</LinearLayout>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/lbl_id"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="5dp"
+        android:gravity="center_vertical"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/lbl_Brinco"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/nomeusual"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/lbl_Status"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/lblDataSecagem"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/PesoAtual"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/catAtual"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/lblPrevisao"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/manejo"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/colorFAB"
+         />
+
+    <TextView
+    android:id="@+id/nDias"
+    android:layout_width="120dp"
+    android:layout_height="50dp"
+    android:gravity="center_vertical"
+    android:text="Medium Text"
+    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/ultimo_parto"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+    <TextView
+        android:id="@+id/lbl_menejo"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:textSize="12dp"
+        android:gravity="center_vertical"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/colorPrimary"
+         />
+
+    <TextView
+        android:id="@+id/modificado"
+        android:layout_width="20dp"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:text="Medium Text"
+        android:textColor="@color/White"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</LinearLayout>

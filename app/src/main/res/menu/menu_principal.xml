@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/mnuReimpressao"
+        android:icon="@drawable/top"
+        android:title="Reimprimir RAT"/>
+
+    <item
+        android:id="@+id/mnuProjetos"
+        android:icon="@drawable/top"
+        android:title="Baixar Projetos IBS"/>
+
+    <item
+        android:id="@+id/mnuPaper"
+        android:icon="@drawable/top"
+        android:title="Baixar PaperTop"/>
+    
+      <item
+        android:id="@+id/mnuID"
+        android:title="@string/alterar_id"/>
+
+    <item
+        android:id="@+id/mnuEnviar"
+        android:icon="@drawable/projetos"
+        android:title="@string/enviardados"/>
+
+    <item
+        android:id="@+id/menuDriveDownload"
+        android:showAsAction="never"
+        android:title="Importar Banco de Dados"/>
+
+    <item
+    android:id="@+id/menuDriveUpload"
+    android:showAsAction="never"
+    android:title="Exportar Banco de Dados"/>
+
+    <item
+        android:id="@+id/mnuDB"
+        android:showAsAction="always"
+        android:title="Enviar Base ao TI"/>
+ 
+
+</menu>

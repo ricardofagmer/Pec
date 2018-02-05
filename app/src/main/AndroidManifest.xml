@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pec.biosistemico.pec">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.BATTERY_STATS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_SYNC_STATS" />
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_SOCIAL_STREAM" />
+    <uses-permission android:name="android.permission.WRITE_SOCIAL_STREAM" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    <uses-permission android:name="android.permission.CLEAR_APP_CACHE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="com.android.browser.permission.WRITE_HISTORY_BOOKMARKS" />
+    <uses-permission android:name="android.permission.PERSISTENT_ACTIVITY" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.SET_TIME_ZONE" />
+    <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS" />
+    <uses-permission android:name="android.permission.MOUNT_FORMAT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.SIGNAL_PERSISTENT_PROCESSES" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.SUBSCRIBED_FEEDS_READ" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.RECEIVE_WAP_PUSH" />
+    <uses-permission android:name="android.permission.SET_ALWAYS_FINISH" />
+    <uses-permission android:name="android.permission.RECEIVE_MMS" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+    <uses-permission android:name="android.permission.WRITE_OWNER_DATA" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER_HINTS" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE" />
+    <uses-permission android:name="android.permission.SET_ANIMATION_SCALE" />
+    <uses-permission android:name="android.permission.SET_DEBUG_APP" />
+    <uses-permission android:name="android.permission.REORDER_TASKS" />
+    <uses-permission android:name="android.permission.SET_PROCESS_LIMIT" />
+    <uses-permission android:name="android.permission.READ_OWNER_DATA" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.SUBSCRIBED_FEEDS_WRITE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="br.com.projecttrace.permission.MAPS_RECEIVE" />
+
+    <application
+        android:name="android.support.multidex.MultiDexApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.MyTheme">
+        <activity
+            android:name=".main"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".fechamento.print"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+
+        <activity
+            android:name=".impressao.DeviceListActivity"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="adjustPan"  />
+        <activity
+            android:name=".impressao.PrinterActivity"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".domain.CargaDados"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".cloud.BaixarProjetos"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".fechamento.FimAtendimento"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".paperTop.FormCargaPaperTop"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".cloud.ReplicarDados"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".criatf.AtualizarConsultor"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".paperTop.SelectProducers"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="adjustPan" />
+
+        <receiver
+            android:name=".cloud.BroadReceiver"
+            android:exported="true"
+            android:label=".cloud.BroadReceiver"
+            android:permission="android.permission.ACCESS_CHECKIN_PROPERTIES"
+            android:singleUser="true">
+            <intent-filter
+                android:id="@+id/intentfilter1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <category
+                    android:id="@+id/category1"
+                    android:name="android.intent.category.DEFAULT"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <action
+                    android:id="@+id/action1"
+                    android:name="android.intent.action.BOOT_COMPLETED"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".cloud.Service"
+            android:label=".cloud.Service">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+                <action android:name="REPLICACAO_IBS" />
+            </intent-filter>
+        </service>
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".offLine.DownloadDataBaseActivity"
+            android:label="@string/title_activity_import_db"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="com.google.android.apps.drive.APP_ID"
+                android:value="id=637561852891" />
+
+            <intent-filter>
+                <action android:name="com.google.android.apps.drive.DRIVE_OPEN" />
+
+                <data android:mimeType="application/vnd.google-apps.drive-sdk.637561852891" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".offLine.UploadDataBaseActivity"
+            android:label="@string/title_activity_import_db"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="com.google.android.apps.drive.APP_ID"
+                android:value="id=637561852891" />
+
+            <intent-filter>
+                <action android:name="com.google.android.apps.drive.DRIVE_OPEN" />
+
+                <data android:mimeType="application/vnd.google-apps.drive-sdk.637561852891" />
+            </intent-filter>
+        </activity>
+        <!--<activity-->
+            <!--android:name=".offLine.ListFoldersActivity"-->
+            <!--android:label="@string/title_activity_import_db"-->
+            <!--android:screenOrientation="landscape">-->
+            <!--<meta-data-->
+                <!--android:name="com.google.android.apps.drive.APP_ID"-->
+                <!--android:value="id=637561852891" />-->
+
+            <!--<intent-filter>-->
+                <!--<action android:name="com.google.android.apps.drive.DRIVE_OPEN" />-->
+
+                <!--<data android:mimeType="application/vnd.google-apps.drive-sdk.637561852891" />-->
+            <!--</intent-filter>-->
+        <!--</activity>-->
+        <activity
+            android:name=".impressao.Reimpressao"
+            android:screenOrientation="landscape"></activity>
+        <activity
+            android:name=".ti.FrmSql"
+            android:screenOrientation="portrait"></activity>
+    </application>
+
+</manifest>

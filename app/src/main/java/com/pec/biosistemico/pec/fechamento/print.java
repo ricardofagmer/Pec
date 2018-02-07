@@ -156,8 +156,7 @@ public class print extends ActionBarActivity {
                     animaisDG += cursor.getString(cursor.getColumnIndex("nome_usual")) + ", ";
                 }
 
-                lblSistema.setText("Total de animais avaliados com status atualizados: "+totalAT);
-
+                lblSistema.setText("A consultoria avaliou "+totalAT+" animais componentes do rebanho, atualizando o status produção (vaca seca ou lactante, o status reprodutivo (vaca gestante ou vazia), cronograma de secagem de leite, cronograma de nascimentos e ocorrências de rebanho (descarte, venda ou óbito).xml");
             }
         } catch (Exception e) {
             Toast.makeText(this, e.getMessage(), Toast.LENGTH_LONG).show();

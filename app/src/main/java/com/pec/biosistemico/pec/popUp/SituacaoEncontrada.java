@@ -118,34 +118,32 @@ public class SituacaoEncontrada  extends DialogFragment implements DialogInterfa
 
                 if(ddlTipoParto.getSelectedItemPosition() == 0)
                 {
-                    String sql = "Na propriedade em questão as vacas encontram-se com escore corporal médio de...  (1/ 1,5/2/2,5/3/3,5/4/4,5/5). A mineralização é feita de forma .... (correta/ incorreta) a ração concentrada.... (está/ nao está) sendo fornecidas as vacas de forma adequada." +
-                            "Foram avaliadas......(quantidade de vacas avaliadas) dentre estas .....(quantidade em número) estão gestantes e .....( quantidade em número) estão nao gestantes.";
+                    String sql = "Na propriedade em questão as vacas encontram-se com escore corporal médio de ... (1/ 1,5/2/2,5/3/3,5/4/4,5/5). \n" +
+                            "A forma de mineralização está .... (correta/ inadequada) para atender as demandas fisiológicas do rebanho.\n" +
+                            "A ração concentrada .... (está/ não está) sendo fornecidas às vacas de forma adequada, para atender as necessidades de mantença e produção.\n"+
+                            "Passaram por procedimento de diagnostico de gestação por ultrassom .... vacas,(quantidade de vacas em DG). Como resultado, Identificamos ..... (quantidade em número) vacas gestantes e ..... (quantidade em número) não gestantes.";
 
                     txtSituacao.setText(sql);
                 }
                 else
                 if(ddlTipoParto.getSelectedItemPosition() == 2)
                 {
-                    String sql = "Na propriedade em questão foi realizado a analises do leite e coletado amostras para exames de CCS e CBT. Abaixo segue os números encontrados nas analises in Loco:"+
-                            "Dornic ......(número) \n"+
-                            "Gordura .... (número em %)\n"+
-                            "Proteína ....(número em %)\n"+
-                            "EST..........(número)\n"+
-                            "ESD .........(número)\n";
+                    String sql = "Além dessas analises, também observamos a aplicação das medidas de prevenção sanitária e higiene, onde constatamos o uso (rotineiro / não rotineiro) do teste da caneca do fundo preto, a (aplicação/não aplicação) do teste da raquete em todas as vacas regularmente. Além disso, verificamos que as condições de higiene e limpeza das instalações e equipamentos, (estão/não estão) em conformidade com as boas práticas recomendadas.\n" +
+                            "De maneira geral constatamos que o rebanho se encontra em (bom/relativo) estado de saúde, (não necessitando/necessitando) de maiores cuidados sanitários.";
 
                     txtSituacao.setText(sql);
                 }
-
                 else
-                if(ddlTipoParto.getSelectedItemPosition() == 3){
-
-                    String sql = "Na propriedade em questão as vacas foram avaliadas para serem inseminadas e estas se encontram com escore corporal.....(bom/médio/ruim). A mineralização destes animais....(estão/ nao estão) de acordo com as necessidades. Para este trabalho foram protocoladas....(números) vacas para Inseminação e o D8.....(foi/ nao foi) realizado de forma satisfatória.";
+                if(ddlTipoParto.getSelectedItemPosition() == 3)
+                {
+                    String sql = "Na propriedade em questão ....... (quantidade em número) vacas tiveram avaliação de condição corporal para procedimento de inseminação. Dessas avaliadas, foram selecionadas ... (quantidade em número) vacas que se apresentavam com escore corporal ..... (bom/médio/ruim)\n" +
+                            "Com base nessa seleção, foram protocoladas .... (números) vacas para Inseminação e o D8 ..... (foi/ não foi) realizado de forma satisfatória.\n" +
+                            "Também observamos que a mineralização destes animais .... (está/ não está) de acordo com as necessidades, o que certamente influenciará nos resultados de prenhes .\n";
 
                     txtSituacao.setText(sql);
                 }
                 else
                     txtSituacao.setText("");
-
             }
 
             @Override
